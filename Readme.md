@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Александр](https://up.htmlacademy.ru/htmlcss/25/user/999413).
-* Наставник: `Неизвестно`.
+* Студент: [Александр Карамышев](https://up.htmlacademy.ru/htmlcss/25/user/999413).
+* Наставник: [Андрей Колесников](https://up.htmlacademy.ru/htmlcss/25/user/477095).
 
 ---
 
