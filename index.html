@@ -26,13 +26,23 @@
           <ul class="sevice-list">
             <img src="img/web-site.jpg" width="106" height="50" alt="ВЕБ-САЙТЫ">
             <li class="sevice-item">ВЕБ-САЙТЫ<p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-            <p><a class="button" href="order-web.html">ЗАКАЗАТЬ</a></p></li>
+            <p><a class="button" href="order-web.html" aria-label="заказать веб-сайт">ЗАКАЗАТЬ</a></p></li>
             <img src="img/apps.jpg" width="106" height="50" alt="ПРИЛОЖЕНИЯ">
             <li class="sevice-item">ПРИЛОЖЕНИЯ<p>Покорите топ-10 приложений в AppStore и Google Play</p>
-            <p><a class="button" href="order-apps.html">ЗАКАЗАТЬ</a></p></li>
+            <p><a class="button" href="order-apps.html" aria-label="заказать приложение">ЗАКАЗАТЬ</a></p></li>
             <img src="img/prs.jpg" width="106" height="50" alt="ПРЕЗЕНТАЦИИ">
             <li class="sevice-item">ПРЕЗЕНТАЦИИ<p>Вы даже не подозреваете, насколько вы изумительны!</p>
-            <p><a class="button" href="order-prs.html">ЗАКАЗАТЬ</a></p></li>
+            <p><a class="button" href="order-prs.html" aria-label="заказать презентацию">ЗАКАЗАТЬ</a></p></li>
+        </section>
+        <section class="feedback">
+            <h2>Напишите нам</h2>
+            <form class="modal-feedback" method="post" action="https://echo.htmlacademy.ru">
+            <button class="modal-close" type=button>Закрыть</button>
+            <p class="feedback-item"><label class="feedback-item">Ваше имя:<input type="text" name="name" value="" placeholder="имя фамилия"></label></p>
+            <p class="feedback-item"><label class="feedback-item">Ваш e-mail:<input type="text" name="email" value="" placeholder="email@example.ru"></label></p>
+            <p class="feedback  -item"><label class="feedback-item">Текст письмя:<input type="text" name="comment" value="" placeholder="в свободной форме"></label></p>
+            </form>
+            <button class="button" type="submit">Отправить</button>
         </section>
       <!--Часть разметки не производилась в соответсткии с требованием задания-->
     </main>
@@ -40,9 +50,9 @@
       <b>Давайте дружить, это выгодно!</b>
       <p>Скидка 10% для друзей из социальных сетей.</p>
       <ul class="social">
-        <li><a href="#">Вконтакте</li>
-        <li><a href="#">Фэйсбук</li>
-        <li><a href="#">Инстаграм</li>
+        <li><a href="#" aria-label="Нердс - группа вконтакте">Вконтакте</a></li>
+        <li><a href="#" aria-label="Нердс в фэйсбук">Фэйсбук</a></li>
+        <li><a href="#" aria-label="Нердс в инстаграм">Инстаграм</a></li>
       </ul>
     </footer>
   </body>
