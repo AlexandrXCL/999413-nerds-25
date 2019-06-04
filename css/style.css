@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto Regular", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+  text-transform: none;
+
+  background-color: #ffffff;
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  background-repeat: repeat;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+
+  background-color: #eeeeee;
+  background-image: image(../img/navigation-bg.jpg);
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation .navigation-item {
+  color: #000000;
+  text-transform: uppercase;
+  }
+
+.site-navigation a:hover {
+  color: #fb565a;
+}
+.site-navigation a:active {
+    color: rgba(0, 0, 0, 30%);
+}
+
+.navigation-item-checked {
+  text-decoration: underline;
+  text-decoration-color: #fb565a;
+}
+
+.service-list {
+  list-style: none;
+}
+
+.service-item h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+
+  text-transform: uppercase;
+}
+
+.service-item p {
+  font-family: inherit;
+}
+
+.choise-type button {
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+
+  background-color: #eeeeee;
+}
+
+.button {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.standard-button {
+  background-color: #fb565a;
+}
+
+.order-apps {
+  background-color: #00ca74;
+}
+
+.order-prs {
+  background-color: #efc84a;
+}
+
+.button:active {
+    color: rgba(255, 255, 255, 30%);
+}
+.standard-button:hover {
+  background-color: #e74246;
+}
+.order-apps:hover {
+  background-color: #00bc6c;
+}
+
+.order-prs:hover {
+  background-color: #eab534;
+}
+
+.main-footer {
+  background-color: #ffffff;
+  background-image: image(../img/bg.jpg);
+}
+
+.main-footer b {
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.main-footer p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #444444;
+}
+
+.social {
+  list-style: none;
+}
+
+.social a {
+  color: #ffffff;
+  background-color: #e1e1e1;
+}
+
+.filter {
+  border: none;
+}
+.filter legend {
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.filter ul {
+  list-style: none;
+}
+.filter li {
+  font-size: 16px;
+  line-height: 20px;
+  color: #283136;
+}
+.preview-list {
+  list-style: none;
+}

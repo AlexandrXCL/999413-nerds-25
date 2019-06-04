@@ -3,19 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Дизайн студия Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="css/normalized.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
-      <h1 class="visually-hidden">Нёрдс</h1>
         <nav class="main-navigation">
-          <a class= "header-logo" href="index.html"><img src="img/nerds-logo.svg" width="160" height="65" alt="логотип дизайн студии Нёрдс">
+          <a class= "header-logo" href="index.html" ><img src="img/nerds-logo.svg" width="160" height="65" alt="ЛОГОТИП ДИЗАЙН СТУДИИ НЁРДС">
           </a>
           <ul class="site-navigation">
-            <li><a href="info.html">CТУДИЯ</a></li>
-            <li><a href="clients.html">КЛИЕНТЫ</a></li>
-            <li class="current-navigation"><a>МАГАЗИН</a></li>
-            <li><a href="contacts.html">КОНТАКТЫ</a></li>
-            <li><a href="basket.html">КОРЗИНА</a></li>
+            <li class="navigation-item"><a href="index.html">студия</a></li>
+            <li class="navigation-item"><a href="clients.html">клиенты</a></li>
+            <li class="navigation-item navigation-item-checked">магазин</li>
+            <li class="navigation-item"><a href="contacts.html">контакты</a></li>
+            <li class="navigation-item"><a href="basket.html">корзина</a></li>
           </ul>
         </nav>
     </header>
@@ -25,18 +27,18 @@
         <section class="sample-type">
           <h2 class="visually-hidden">Фильтр шаблонов</h2>
           <form class="choise-type" method="get" action="https://echo.htmlacademy.ru">
-          <fieldset>
+          <fieldset class="filter">
             <legend>Сетка:</legend>
           <ul>
               <li class="grid-radio"><label><input class="grid-input-radio" type="radio" name="grid-type" checked>Адаптивная</label></li>
               <li class="grid-radio"><label><input class="grid-input-radio" type="radio" name="grid-type">Фиксированная</label></li>
               <li class="grid-radio"><label><input class="grid-input-radio" type="radio" name="grid-type">Резиновая</label></li>
           </ul>
-         <fieldset>
+         <fieldset class="filter">
            <legend>Особенности:</legend>
            <ul class="choise-properties">
              <li class="properties-button"><label><input class="properties-input-checkbox" type="checkbox" name="slider" checked>Слайдер</label></li>
-             <li class="properties-checkbox"><label><input class="gproperties-input-checkbox" type="checkbox" name="privelege">Блок преимуществ</label></li>
+             <li class="properties-checkbox"><label><input class="properties-input-checkbox" type="checkbox" name="privelege">Блок преимуществ</label></li>
              <li class="properties-checkbox"><label><input class="properties-input-checkbox" type="checkbox" name="news" checked>Новости</label></li>
              <li class="properties-checkbox"><label><input class="properties-input-checkbox" type="checkbox" name="gallery">Галерея</label></li>
              <li class="properties-checkbox"><label><input class="properties-input-checkbox" type="checkbox" name="busket">Корзина</lable></li>
@@ -69,9 +71,9 @@
              <b>Давайте дружить, это выгодно!</b>
              <p>Скидка 10% для друзей из социальных сетей.</p>
              <ul class="social">
-               <li><a href="#" aria-label="Нердс - группа вконтакте">Вконтакте</a></li>
-               <li><a href="#" aria-label="Нердс в фэйсбук">Фэйсбук</a></li>
-               <li><a href="#" aria-label="Нердс в инстаграм">Инстаграм</a></li>
+               <li><a class="button standard-button" href="#">Вконтакте</a></li>
+               <li><a class="button standard-button" href="#">Фэйсбук</a></li>
+               <li><a class="button standard-button" href="#">Инстаграм</a></li>
              </ul>
       </footer>
   </body>

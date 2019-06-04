@@ -3,19 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Дизайн студия Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="css/normalized.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
-      <h1 class="visually-hidden">Дизайн студия "Нёрдс"</h1>
         <nav class="main-navigation">
-          <a class= "header-logo" ><img src="img/nerds-logo.svg" width="160" height="65" alt="ЛОГОТИП ДИЗАЙН СТУДИИ НЁРДС">
+          <a class= "header-logo" href="index.html"><img src="img/nerds-logo.svg" width="160" height="65" alt="ЛОГОТИП ДИЗАЙН СТУДИИ НЁРДС">
           </a>
           <ul class="site-navigation">
-            <li><a href="info.html">CТУДИЯ</a></li>
-            <li><a href="clients.html">КЛИЕНТЫ</a></li>
-            <li><a href="catalog.html">МАГАЗИН</a></li>
-            <li><a href="contacts.html">КОНТАКТЫ</a></li>
-            <li><a href="basket.html">КОРЗИНА</a></li>
+            <li class="navigation-item"><a href="index.html">студия</a></li>
+            <li class="navigation-item"><a href="clients.html">клиенты</a></li>
+            <li class="navigation-item"><a href="catalog.html">магазин</a></li>
+            <li class="navigation-item"><a href="contacts.html">контакты</a></li>
+            <li class="navigation-item"><a href="basket.html">корзина</a></li>
           </ul>
         </nav>
     </header>
@@ -23,16 +25,16 @@
     <!--Часть разметки не производилась в соответсткии с требованием задания-->
       <section class="service">
         <h2 class="visually-hidden">Услуги</h2>
-          <ul class="sevice-list">
+          <ul class="service-list">
             <img src="img/web-site.jpg" width="106" height="50" alt="ВЕБ-САЙТЫ">
-            <li class="sevice-item">ВЕБ-САЙТЫ<p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-            <p><a class="button" href="order-web.html">ЗАКАЗАТЬ</a></p></li>
+            <li class="service-item"><h3>веб-сайты</h3><p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+            <p><a class="button standard-button" href="order-web.html">заказать</a></p></li>
             <img src="img/apps.jpg" width="106" height="50" alt="ПРИЛОЖЕНИЯ">
-            <li class="sevice-item">ПРИЛОЖЕНИЯ<p>Покорите топ-10 приложений в AppStore и Google Play</p>
-            <p><a class="button" href="order-apps.html">ЗАКАЗАТЬ</a></p></li>
+            <li class="service-item"><h3>приложения</h3><p>Покорите топ-10 приложений в AppStore и Google Play</p>
+            <p><a class="button order-apps" href="order-apps.html">заказать</a></p></li>
             <img src="img/prs.jpg" width="106" height="50" alt="ПРЕЗЕНТАЦИИ">
-            <li class="sevice-item">ПРЕЗЕНТАЦИИ<p>Вы даже не подозреваете, насколько вы изумительны!</p>
-            <p><a class="button" href="order-prs.html">ЗАКАЗАТЬ</a></p></li>
+            <li class="service-item"><h3>презентации</h3><p>Вы даже не подозреваете, насколько вы изумительны!</p>
+            <p><a class="button order-prs" href="order-prs.html">заказать</a></p></li>
         </section>
         <section class="feedback">
             <h2>Напишите нам</h2>
@@ -50,9 +52,9 @@
       <b>Давайте дружить, это выгодно!</b>
       <p>Скидка 10% для друзей из социальных сетей.</p>
       <ul class="social">
-        <li><a href="#">Вконтакте</a></li>
-        <li><a href="#">Фэйсбук</a></li>
-        <li><a href="#">Инстаграм</a></li>
+        <li><a class="button standard-button" href="#">Вконтакте</a></li>
+        <li><a class="button standard-button" href="#">Фэйсбук</a></li>
+        <li><a class="button standard-button" href="#">Инстаграм</a></li>
       </ul>
     </footer>
   </body>
